@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+header div{
+    background-color: #212f3e;
+}
+
+header nav{
+    background-color: #36475a;
+    color:white;
+    padding: 0.8%;
+}
+
+#orange {
+    color:white;
+    text-align: center;
+    background-color: #f66600;
+    margin: 2%;
+    padding: 0.8%;
+}
+
+#regali{
+    background-image: url("../images/bg-image.png");
+    padding: 7%;
+    text-align: center;
+    color:white;
+    margin: 2%;
+    
+
+}
+
+#kindle{
+    background-image: url("../images/img_1.jpg");
+}
+  
+
+
+#vaso{
+    background-image: url("../images/img_2.jpg");
+    
+}
+
+#smart{
+    background-image: url("../images/img_3.jpg");
+  
+}
+
+#pet{
+    background-image: url("../images/img_4.jpg");
+    
+}  
+
+#cassa{
+    background-image: url("../images/img_9.png");
+  
+}
+
+#visore{
+    background-image: url("../images/img_10.png");
+   
+   
+   
+}
+.image-container{
+    display: inline-block; 
+    justify-content: space-between; 
+    margin: 20px auto; 
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+.image-container div{
+    flex: 1; 
+    margin: 0 2%; 
+    aspect-ratio: 1 / 1; 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 8%; 
+}
+
